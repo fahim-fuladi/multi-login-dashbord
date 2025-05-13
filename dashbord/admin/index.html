@@ -1738,11 +1738,35 @@
           <div class="row">
             <div class="col-lg-8">
               <div class="card w-100">
-                <div class="card-body">
+                <div class="card-body border-2 border border-primary">
                   <div class="d-md-flex align-items-center">
                     <div>
                       <h4 class="card-title fs-8">Admin Dashbord</h4>
                     </div>
+                  </div>
+                  <div class="calculator">
+                    <h2 class="text-center mb-4">Calculator</h2>
+                    <div class="mb-3">
+                      <input type="number" id="num1" class="form-control" placeholder="Enter first number">
+                    </div>
+                    <div class="mb-3">
+                      <input type="number" id="num2" class="form-control" placeholder="Enter second number">
+                    </div>
+                    <div class="row text-center mb-3">
+                      <div class="col-3">
+                        <button class="btn btn-primary w-100" onclick="calculate('+')">+</button>
+                      </div>
+                      <div class="col-3">
+                        <button class="btn btn-primary w-100" onclick="calculate('-')">−</button>
+                      </div>
+                      <div class="col-3">
+                        <button class="btn btn-primary w-100" onclick="calculate('*')">×</button>
+                      </div>
+                      <div class="col-3">
+                        <button class="btn btn-primary w-100" onclick="calculate('/')">÷</button>
+                      </div>
+                    </div>
+                    <h4 class="text-center">Result: <span id="result">--</span></h4>
                   </div>
                 </div>
               </div>
@@ -2204,6 +2228,7 @@
       </div>
     </div>
   </div>
+  <script src="../../assets/scripts/calculator.js"></script>
   <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
   <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="./assets/js/sidebarmenu.js"></script>
