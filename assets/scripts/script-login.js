@@ -35,9 +35,9 @@ form.addEventListener('submit', function (e) {
         const password = passwordInput.value.trim();
 
         if (username === 'admin' && password === '1234') {
-            window.location.href = './dashbord/admin/dashbord-admin.html';
+            window.location.href = './dashbord/dashbord-admin.html';
         } else if (username === 'user' && password === '1234') {
-            window.location.href = './dashbord/user/dashbord-user.html';
+            window.location.href = './dashbord/dashbord-user.html';
         } else {
             alert('The username or password is incorrect!');
         }
