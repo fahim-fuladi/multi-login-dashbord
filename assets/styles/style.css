@@ -1,0 +1,141 @@
+body {
+    padding-top: 76px; 
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #002b5b;
+}
+
+.nav-link.active {
+    color: #e74c3c !important;
+}
+
+.btn-get-started {
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.btn-get-started:hover {
+    background-color: #c0392b;
+    color: white;
+}
+
+.carousel-item {
+    height: 480px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.carousel-caption {
+    z-index: 2;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+.btn-get-started {
+    background-color: #e74c3c;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.btn-get-started:hover {
+    background-color: #c0392b;
+}
+
+.icon-circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.card {
+    z-index: 1;
+}
+
+.py-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+.service-card {
+    transition: all 0.3s ease;
+    background: #fff;
+    border-radius: 0 !important;
+}
+
+.service-card:hover {
+    background-color: #e74c3c;
+}
+
+.service-card:hover h4,
+.service-card:hover p {
+    color: white !important;
+}
+
+.icon-box {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #e74c3c;
+    transition: all 0.3s ease;
+}
+
+.icon-box i {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .icon-box {
+    background-color: white;
+}
+
+.service-card:hover .icon-box i {
+    color: #e74c3c !important;
+}
+
+.icon-box {
+    width: 64px;
+    height: 64px;
+    background-color: #e74c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.service-card:hover .icon-box {
+    background-color: white;
+}
