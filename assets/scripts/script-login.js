@@ -29,4 +29,15 @@ form.addEventListener('submit', function (e) {
         passwordInput.classList.add('is-invalid');
         hasError = true;
     }
+
+    if (!hasError) {
+        const username = usernameInput.value.trim();
+        const password = passwordInput.value.trim();
+
+        if (username === 'admin' && password === '1234') {
+            window.location.href = './dashbord/admin/index.html';
+        } else {
+            alert('The username or password is incorrect!');
+        }
+    }
 });
